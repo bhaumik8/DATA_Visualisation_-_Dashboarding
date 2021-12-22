@@ -1,0 +1,469 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0315.1000                               -->
+<workbook original-version='18.1' source-build='2020.4.3 (20204.21.0315.1000)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Northern Ireland (1)' inline='true' name='federated.1bb06f40gm08vt18bbxlj1psh3oa' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='1' name='excel-direct.0s5hsnz1gndc4q143eyyf1owx949'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Bhaumik/Desktop/UoW/Data Visualisation &amp; Dashboarding/CW/FINAL COURSE WORK/Data/1.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0s5hsnz1gndc4q143eyyf1owx949' name='Northern Ireland' table='[&apos;Northern Ireland$&apos;]' type='table'>
+          <columns gridOrigin='A1:J45:no:A1:J45:0' header='yes' outcome='2'>
+            <column datatype='string' name='Official reported estimates of percentage testing positive, Northern Ireland' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='date' name='Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland' ordinal='6' />
+            <column datatype='real' name='F8' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+            <column datatype='real' name='F10' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0s5hsnz1gndc4q143eyyf1owx949' name='Northern Ireland' table='[&apos;Northern Ireland$&apos;]' type='table'>
+          <columns gridOrigin='A1:J45:no:A1:J45:0' header='yes' outcome='2'>
+            <column datatype='string' name='Official reported estimates of percentage testing positive, Northern Ireland' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+            <column datatype='string' name='F3' ordinal='2' />
+            <column datatype='string' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='date' name='Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland' ordinal='6' />
+            <column datatype='real' name='F8' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+            <column datatype='real' name='F10' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Northern Ireland]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J45:no:A1:J45:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Official reported estimates of percentage testing positive, Northern Ireland</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Official reported estimates of percentage testing positive, Northern Ireland]</local-name>
+            <parent-name>[Northern Ireland]</parent-name>
+            <remote-alias>Official reported estimates of percentage testing positive, Northern Ireland</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Northern Ireland_1B62DEF8F1E742B5AAFF4CAB7914B6B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Northern Ireland]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Northern Ireland_1B62DEF8F1E742B5AAFF4CAB7914B6B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[Northern Ireland]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Northern Ireland_1B62DEF8F1E742B5AAFF4CAB7914B6B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[Northern Ireland]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Northern Ireland_1B62DEF8F1E742B5AAFF4CAB7914B6B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[Northern Ireland]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Northern Ireland_1B62DEF8F1E742B5AAFF4CAB7914B6B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[Northern Ireland]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Northern Ireland_1B62DEF8F1E742B5AAFF4CAB7914B6B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland]</local-name>
+            <parent-name>[Northern Ireland]</parent-name>
+            <remote-alias>Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Northern Ireland_1B62DEF8F1E742B5AAFF4CAB7914B6B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[Northern Ireland]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Northern Ireland_1B62DEF8F1E742B5AAFF4CAB7914B6B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[Northern Ireland]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Northern Ireland_1B62DEF8F1E742B5AAFF4CAB7914B6B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[Northern Ireland]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Northern Ireland_1B62DEF8F1E742B5AAFF4CAB7914B6B7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' hidden='true' name='[F10]' role='measure' type='quantitative' />
+      <column caption='Estimated average % of the population that had COVID-19' datatype='string' name='[F2]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F3]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F4]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F5]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F6]' role='dimension' type='nominal' />
+      <column caption='Modelled % testing positive for COVID-19' datatype='real' name='[F8]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F9]' role='measure' type='quantitative' />
+      <column caption='Date 2' datatype='date' name='[Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland]' role='dimension' type='ordinal' />
+      <column caption='Date 1' datatype='string' name='[Official reported estimates of percentage testing positive, Northern Ireland]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Northern Ireland' datatype='table' name='[__tableau_internal_object_id__].[Northern Ireland_1B62DEF8F1E742B5AAFF4CAB7914B6B7]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Northern Ireland' id='Northern Ireland_1B62DEF8F1E742B5AAFF4CAB7914B6B7'>
+            <properties context=''>
+              <relation connection='excel-direct.0s5hsnz1gndc4q143eyyf1owx949' name='Northern Ireland' table='[&apos;Northern Ireland$&apos;]' type='table'>
+                <columns gridOrigin='A1:J45:no:A1:J45:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Official reported estimates of percentage testing positive, Northern Ireland' ordinal='0' />
+                  <column datatype='string' name='F2' ordinal='1' />
+                  <column datatype='string' name='F3' ordinal='2' />
+                  <column datatype='string' name='F4' ordinal='3' />
+                  <column datatype='string' name='F5' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='date' name='Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland' ordinal='6' />
+                  <column datatype='real' name='F8' ordinal='7' />
+                  <column datatype='real' name='F9' ordinal='8' />
+                  <column datatype='real' name='F10' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Northern Ireland'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Northern Ireland (1)' name='federated.1bb06f40gm08vt18bbxlj1psh3oa' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1bb06f40gm08vt18bbxlj1psh3oa'>
+            <column caption='Estimated average % of the population that had COVID-19' datatype='string' name='[F2]' role='dimension' type='nominal' />
+            <column caption='Modelled % testing positive for COVID-19' datatype='real' name='[F8]' role='measure' type='quantitative' />
+            <column caption='Date 2' datatype='date' name='[Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland]' role='dimension' type='ordinal' />
+            <column-instance column='[Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland]' derivation='Day' name='[dy:Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[F2]' derivation='None' name='[none:F2:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F8]' derivation='Sum' name='[sum:F8:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1bb06f40gm08vt18bbxlj1psh3oa].[none:F2:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:F2:nk]' />
+              <groupfilter function='member' level='[none:F2:nk]' member='&quot;Estimated average \% of the population that had COVID-19&quot;' />
+            </groupfilter>
+          </filter>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.1bb06f40gm08vt18bbxlj1psh3oa].[dy:Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland:ok]' value='37' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1bb06f40gm08vt18bbxlj1psh3oa].[dy:Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1bb06f40gm08vt18bbxlj1psh3oa].[sum:F8:qk]</rows>
+        <cols>([federated.1bb06f40gm08vt18bbxlj1psh3oa].[none:F2:nk] / [federated.1bb06f40gm08vt18bbxlj1psh3oa].[dy:Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland:ok])</cols>
+      </table>
+      <simple-id uuid='{CF33E027-0E10-4AF4-BA3E-266507300F2F}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Northern Ireland'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1bb06f40gm08vt18bbxlj1psh3oa].[dy:Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.1bb06f40gm08vt18bbxlj1psh3oa].[dy:Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland:ok]</field>
+            <field>[federated.1bb06f40gm08vt18bbxlj1psh3oa].[none:F2:nk]</field>
+            <field>[federated.1bb06f40gm08vt18bbxlj1psh3oa].[qr:Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland:ok]</field>
+            <field>[federated.1bb06f40gm08vt18bbxlj1psh3oa].[yr:Modelled daily rates of the percentage of the population testing positive for COVID-19, Northern Ireland:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8581ADA9-807D-4BA0-9379-0C504C0E155B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Northern Ireland' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAVuUlEQVR4nO3d228caXrf8W9V9bmb54MoUmdRGo12NCevvV4s7EWCCZB4gwVsBIYXuYlv
+      HMA3huHL/AlBroJc5SZxAN8kRgzHCQInSGB47R3MZGPtZGakWVKiRDbZbJJ9quo6dJ3eXJCi
+      SHV1q2dWpCjW8xGEUff7sOppTv26qrq73taUUgohUkp/3Q0I8TpJAESqSQBEH8/c469//DGm
+      0wOg02nTbrWIX6hzbAs/fH7v9sYGwYtFLxEHDh9/8nfU63WOHo1//tn/I4p6dEyXjfWNkZe3
+      vrFf65gdeoFPx+weX18UYHZtNjbWAch8vXZFGnhWk72Oy9MH92lHOTZWv+T2t+4Rff4ZTdth
+      amqaR19+xtjMLDMLl/nip5/w9rsfUt/c5Dd+a4H/8if/gbFLbzE9McbWkwcUylP0jAqTqoVn
+      lNGjHpGWY+XxOv/sd37Azs42TrdJrH+b7bUvcCONlcfrXL6Q579/XGdM7VJdf8T9+5/zgx/9
+      Lus/+1uy5TK26ZDPRFhRjonZOWbLWXYaDT75yV+T0/NcvvcO/m4dqxdCJosGfPvOZf7y0xUq
+      mGzVtiUAol8mX6JcyFKenObJygbXr11G13RKU/OUZxW9To2Z+UXmLi6igNt336VSyOJOTaH5
+      DpWZC8zPT7G13WZhYZHZ2VlsY4r2xpeUjBjTsnAy07z//nvkyjO8/+5dOo1tbLuLpulk8iV+
+      6YN3mZhdZGHaZG7qDpHTYPnu+0wWM3zWanNxchJN0whcC0+fZTLw2NqxmJkok784AcWLZDQI
+      dQNNi8iVKsxUslSm5lmY2WFm8iK9bgPtJF4FUkqhadqrXqx4gwzcBuKALx+ucuutt8jo2ku3
+      k/7lKEyzy/j4GAA924T8GPnM113OvhM5B+h2uy8vEufawG1Az3L37ttkDX2k7aS/Rjvc+AHy
+      5XF895ss56Cdl/6kGE0csF6t0W639m+HPfb2Gliu93r7ek1U5PPwwQOcXohttanvNYkClyfV
+      2rG6p49X2Gt3CXoO65s1Os0dVtfWOXpcslPboFrbRamQ1a8eUq/v8PDhA9zgeZHZ2mV1bQNQ
+      PHnyiEazyVc/X+XIOTqdxg6PnlZBxayvPaJW35VzgFdGhbT29rCdIp7ngW/R8QwmjCxjxcLr
+      7u7U2Z0OC5cu0Ngzubw0jWnX2Noy8UOFAvYPRgKM3Biu1WJ28jJZo4PrOESRgiNVfqShlAcY
+      TE1PYeSLTPjFg1eN9mtMu0chAzFQKZXZq20RGlmCMCKTMwCwXJ+8rog1nWIhh9ULZA/w6uhc
+      unKZKAiw2g1sX1EuFclnjNfd2GtRrJSpPqmSLxq0GrvU6ntoOnheD9dxcBwHyOB2G2RyeTqt
+      FrWtGsrIEwQBjuse1IAKewRKx7XbPF3fwmrU2bE8eq6DfVBTyGiYro/nODQti8mZGTQV0bXs
+      w5qcAZYX4Nlduq6HpsKTOQk2TZNKpfKqFyveIJZlMTY2duZrTuQQyPf9w/SKdOr1ehjG8L3f
+      Wag5kQDk83nZA6ScUuql28BZqJFzAJFqEgCRahIAkWoSAJFqEgCRahIAkWoSAJFqEgCRahIA
+      kWoSAJFqEgCRahIAkWoSAJFqEgCRahIAkWojXQ8Q+Q4PV9a4efttnHadph1S1EPIlgmcNvny
+      FO3mDldv3qaUz550z0K8MiMFoNtocvH6FdpNk9CPyBsKpeVQYY9CPoftWgR+RBjGRJmIKIoI
+      w/Ckexdn2CjbwKg1vvUIv/rvE8f10jLRxA+/8bpGCkB5aoKHK09ZunwNTWl0bEVRd1HZMo7n
+      kM2XyBdyxCrGMAwMwyCTkQkn0myUbWDUGp2A2NtKHNeyUxiGgUbI3/7nHyXWzCz9Kpfv/X7i
+      ukbaSjOFMd65987BrQoXjo1eHGURQpwopRTd1qPEsfLEtYE/JyfBItUkACLVJAAi1SQAItUk
+      ACLVJAAi1SQAItUkACLVJAAi1SQAItUkACLVJAAi1SQAItUkACLVJAAi1SQAItUkACLVJAAi
+      1UYKgFKKTqeDAsKgR9d28Vwbzw/otFv4QYjZ6fDqv3FYiJM10jXBTnObesemF2fxOts4fkRW
+      B6VlyGo+W5tV9GwRJ9SYn6oQxzFxHJ907+IMG2UbGLVGacOfWeM4RqnBy1GogesaKQCaphFH
+      MVEQEKv9PQJKsf9HI44jVBSjac/rhXgTjBSA4tQFLuUqFPIFmC7iB4qMFoORpefaLJUq9DyX
+      crmCpu0HQNfl9CLNdF1/6TYwao3G8CdUXdfRtMHL0dAGrmvkPcDRb9k+Or1KLjsBQFa+GV68
+      gWT2KpEaKvYJmh8fu08CIFJDxT28jT8+dp8cqItUkwCIVJMAiFSTAIhUkwCIVJMAiFSTAIhU
+      kwCIVJMAiFSTAIhUkwCIVJMAiFTrC4CKAz7/2X0erSd/LaUQ50lfAOorX3D/4QbVJ4/xXkdH
+      Qpyivo9Dz1xd5v0wh9YLkGvcxXnXF4CeuUvbiaDVInodHQlxivoCUJm/znenTTY2Figf3BdH
+      PqurT7i+fAvPbNC0Q4pGCNkyXrdJaWya5l6dS9duUspnT/khCPHN9QXAbmzy4//7EEWGy9e/
+      jwF0d3eYXpyn0TAJei4aMb3QQAUWExMTdJ0ujuMDEEURURQRhuFpPxZxhoyyDYxaE2tDpk5R
+      6mCbG3zhvDqs6R/rC0B7p4Wez+LtdPCAMlAYq7D2aJ3FpWtEWkzHDikaLipT5PHaUy4uLlEo
+      GDieT2mijGEYZDJytWWajbINjFqjD3u1XtMwDAPDMIaUPKvpH+tb+8TCPPndJoWFeXIH9+XK
+      k7z37uTBrXGWjv7AtasALCwsDH0gQpxFifHLZLKUK+PyLpk49/q2cU3T0TSwbVteBhXnXl8A
+      DF1h2w5+FMseQJx7fdt4t9EgU5nA67SR13HEedd3DpDJl7lzZwlnp/6SGRmFePP17QFyBYMv
+      7t/n8ea2HAKJc69vD1CaXuS7vzxJsVSUPYA49xKf5Nce3OfHH/+dnAOIcy8xANlCCdfqyMug
+      4tzrC4C116DtuBTLZTkHEOde/0lwUWe7tgNKId/yJc67vpPgfHmKj/7er9P2lHx5gDj3Eo9y
+      vvjsY/7sT/6C3ml3I8QpS3ySX7p0EyuYkD2AOPf6tnGlIjqdLmEkL4KKX4z7X/+IcOV/JI4V
+      f/ivYe7DU+6oX8KTfEwmW2R2ypCXQcUvRikY+AXWZ2Pr6j8HUDH/55NP2Wu0zkiLQpyc/omx
+      gHfuvXPwBcVCnG99h0C6nsdx2qw8fMT3Pvp1suxfVAyApu3v1gbS0CQ14uvw2uC2kscKk5z0
+      N/kmLn1xaQkrypM/uO11dnnwZItrN+7QbVRp2QFFPULlSuS1ENfzcbyQKzeXmZ3Yn0xFDQ2K
+      EPvUzudoj/4yeezq92HuV17hyvrvSgyAbduonk8I5IDID5hfmMf3A5SWZaysY2gGsYowjDyL
+      k2N0HEUQBMRxfDg1ikivKIowhjwJRtH+dqLieOCh9rPpTF7ZtCgJi0kMQBRGzw93NI3y3EXM
+      Wp3JUgbKM1huRF4LIVukubOFr02QNVwuzE6ha6NNdyHON8Mw0IYcDxuGvj/liT74E2f6wXQm
+      pzotCkCpXCbb6rJV2+Pa4hyaprO4ePFwvFB8XjteWT741yRfV8tpstnZSBybLs2yOLGUOCbE
+      qzLgaVoRqfjED2Pub/6Uf/uTf5M49g/e+g1+9zu/d6LrFyJx3xL4Ab4X0vOc0+5HiFOVGADf
+      95meneP2rRun3Y8Qpyrhs0CKUrlEt3U2PgvqRz22nOTzhLxR4GLp0il3JM6ThAD4tJr7sz1H
+      SQWnrOO3+NO1P04cWygu8U9v/fNT7kicJ/1TIwIrKyuEMjOcSIH+AOh53vvgPVrbW2/UN8RE
+      YW/gXyEGSTzCGSvqLN65dzg9+pvgf/677xHHfuLYP/q9z065G/GmSDzK2d7Z5POf3Cd5cxLi
+      /Eg4CQ7xgwLfunft3H0cOrQfocLk9zYylZtoRumUOxKvW8IhkMbM3DyTc/OHnwY9L3qb/4nI
+      XkkcK9/+Fxjl66fckXjd+g6BXMskp4X81d98KodA4tzr2wMYOnzxeIPFC3Ov/T2A1+HPPvsZ
+      /3v1q8Sxf/Leh/zazeXEMfFm6tvGA6/H9OxFvv1L91J5TfCubbGyu5s41vHcU+5GnLS+AGiZ
+      DCp0+Omn9/nl7377dfR05j1u7PJXj36eOLY8O8+v3bh1yh2Jb6ovAOXJWSq5VTbrjTPxUYiz
+      yAsCti0zcWyuMgaAimOUN+BNOF1DLxROqj3xNSRu3zMzY3T9PIOvsREvE+7uUvuDP0wcyywt
+      sfiv/uUpdySS9L8PEMdYXZPVn2/xK9/74HX0lC7/7S/AH/B62z/+IcilpSeq77drd/bYbQfc
+      uPX8Y8a+3eLL1XVu3LqL3dyiaQcU9RByZXAcFm5cYfXhCst33qaUz57qA3jjtZrQG3CodHBR
+      +Z//6X/k6dpaYslv/vbvcOnKFWzLxO52E2sqY+OUKpVX0u55038SrOk4ZoOW+/yTQJ5lc+nG
+      VZyuQ6h0xopZNK2AUorxyXEiLcbQwHZ75DM6URQRhi+fWzSOB1/tr1RMGIZE8eCP5CnUkfUM
+      fs3qWc2wqVqiOEaFIXE8uCaO93sa2ne831M89HLS530bMPAd9zDan5ygsbtHbXMzscZ1HcIw
+      ZGtjnScryS/f3rxzlys3b+GubVP/879JrCktX2L+B9+BKCZaqyfWaBkD/do8AF/9r88I3OTg
+      3vno/ZFnhYjjwZ86jl/1rBAJ/0sST4LnZys8/bROBGSBytw8jx495eLiElGuSMeOyOsBWq5C
+      Y2+bgqaRKxapFAuHV+iPMivEsBkBNE0nk8lgBEOu9kc7sp7Bv4BnNUNnKdB1jEwGXR9co+v7
+      PQ3tW9/vSQ2ZpYBjfQ+WMQzIZF7St3HQ08v7VkGIt9VIrMnNTuzXxCFqu528oHyWzPIiAJs/
+      W8Nt24lld/7++2/urBB2e4/ddsSlGxcOT4J1I8et289e2isxcWQCiLmZqf1/LCwMblKIM6ov
+      WuXJWW5eWUTXtVS+ESbSJXHf0uv10GTrFynQF4AoDMjmsmh5eR9AnH99AejUN/jk/hd0za58
+      S6Q49/o/DZrJUqlU0HV5/hfnX18AiuPTfPjBB6AZcggkzr2+AOSKZa5cKb+OXoQ4dTL1j0g1
+      CYBINQmASDUJgEg1CYBINQmASDUJgEg1CYBINQmASDUJgEg1CYBItZECoOKQx4/XCGOFbbbY
+      3N6lsVOj0bbY3d4mjCOerK0RJH0XvRBn2EiTzli725SnxtlrWASuRaxibM1AuU1KmoZp7pIr
+      jbPbbHNhekJmhXjFs0IM7zs66GmEvoc8QSl10NOIfQ+7XjaKIiLe0FkhkuRLJR4/3mBx8RoQ
+      YbkhRd2BbIXd9g5FfY7OXp2rN2/LrBBneFYI3Rj2+z7oO4bBT11H+h7y7SmGYRCj3sxZIZLk
+      x6Z5/73pg1sTXD42emX/P5eujrIoIc4UOQkWqSYBEKkmARCpJgEQqSYBEKkmARCpJgEQqSYB
+      EKkmARCpJgEQqSYBEKkmARCpJgEQqSYBEKkmARCpJgEQqSYBEKkmARCpJgEQqTbSNcGeuceX
+      j6tcX76L3digaYcU9RCVKRK4FsXyBJ1Om7fufotSPnvSPQvxyowUgMDtcfHyIj23R0yW8ZKO
+      rhWJAo/C9CyBY5HRwOy65DO6TIsi06Kcr2lRKnMLtDY2mZutEBcnMJ2Qgh5Cbga/22Jm6Qo7
+      9TrTE5XD6S5kWhSZFuXcTIui6QZXrl45vF2uHBkc3/9GyevXr4+yKCHOFDkJFqkmARCpJgEQ
+      qSYBEKkmARCpJgEQqSYBEKkmARCpJgEQqSYBEKkmARCpJgEQqSYBEKkmARCpJgEQqSYBEKk2
+      4iWRJg9WnnDj9l3sZo2WHVA0QlS2hN/tUBybpN1scHX5LcZL+ZPuWYhXZqQ9gNM2ubR8nW6n
+      SxBplAsZjFwZLfAoT8/hNre4cOk6Xbt70v0K8UqNFICxuVnqT6qUSjlKpSyhMjAIyVemCLtt
+      Zi7forVTZWpi8qT7FeKVGukQSM8UePvu2we3SkzPHBmc378xMzV5ePW967rHfl6p/guklVJM
+      Z2f56No/3L99cP+zqhvjy5imSRQqvlX8MHFZlew4pmkCMLf826jDGSQUR6/atiwLpRRB9h5x
+      aTGxRnkGWmSyPD7JD2699WxlcKTvhUIR0zTJK3h3Zj6x7wv5/Zo4jtE++ujoI35eNfG8b+3q
+      dXg2awUK7ejV5raN0nWu37rF+ORkQtdgZLOYpkkmV2D24lJi33o2h2ma+Hmdwnduk0RbmN7v
+      KVbE04XnXR9dVMZAf/b7fmeJwPUTe3J7Ln4UkF34VeLs7MFyjm8DsTGN5zigTcL0h4ePn6O/
+      gcwsjuMQG3n80vcTf5d6Zp7QcYijLPPLP0p8bOWpGziOg4oNei8sR1PD5tz4hizLYmxs7Plq
+      EgIQRdGxK/mftXG07sWapGVFUYSu68fue7FGKUUcx33rG6Wnk+o7jmM0TRva9y/S00n2Dcdn
+      9Eha3yjbQFLNiz2dVM2zuhN9Fcg0TTzPO2zEcx283v6zRt90GCrCtOxjd71Y43Y7PNnYOjYl
+      Tf9yYqobVeIXcn20LvJdVlZW6NjuwBpQNHZq2AfPcoPWZ7UbdLqDl6PikLZp4Xs2u83O4f3H
+      NgalaLfboCLaHWvgstrtNqCorj8lPDIP0NEazzbxgoitjafYXpD8+IMelu2CiumYVmKNiiPa
+      HRPPNnm8vnms78Pen/WNolqtEg2cm0hRr1Vx/eFzRe3Vt+jY3ktr1o70kyToOWzvNAaOx1HI
+      +kaV5l79ZAOwtvKQx+tbtNsd2u0O9dpTtnfbQP8cPfVaje2d+rH7XqzZ3toim8v31Rytq1fX
+      aDn+0Bo9W2BhZpwX839sfXFErVZnu747tKdqtcrq6urAmsAPME2L+s4edrtJfKTmWV0cBTTa
+      Jr7vY1nWwGW1Wk0i3ydfMGi0nOT1xQ6dpkcch+zuNRJrekEPy+yyU6uyXU+uCQOfjmlR29oi
+      n88fq3lWp+KIRqvD3uYTGtaQDTeOyOUKNButwTXs7112d3aH1sxeWCSjDT9oWfn5VwyZJ4ww
+      CDAIyJZnTjYA8wsX2a1vU6s+5cnQ1Cosy6TV7gypgcnpabY3q0MfXK5QRNl7NN3Bs4lpQNsO
+      mCwPfslWoYjiiCDwB9YAzM3NUS6VB45Hoc/mxgY938N0e4nzSSml2NvepNU2qW5s0AuTe+80
+      d9ne3uSr1RqlYvLpm93pUNvZpuf16PWSew88h+pGlbbVPXgG7xdHAVvVKsXKOLWNKknzxSkV
+      06hvYfuKyDbpOL3EZaFCHny1QqFUTB4/0Ot5eL3hewCns0d5cmZoTblcYbteGzjuWg2qOxb4
+      Jv8f688IeUbIsd0AAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

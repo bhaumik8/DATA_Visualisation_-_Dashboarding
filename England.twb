@@ -1,0 +1,1180 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0315.1000                               -->
+<workbook original-version='18.1' source-build='2020.4.3 (20204.21.0315.1000)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='England (1)' inline='true' name='federated.16k6rvt0am9uf41aubwkh0keyp9y' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='1' name='excel-direct.1f464rk0ofss5m1avboet0t33c4o'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Bhaumik/Desktop/UoW/Data Visualisation &amp; Dashboarding/CW/FINAL COURSE WORK/Data/1.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1f464rk0ofss5m1avboet0t33c4o' name='England' table='[England$]' type='table'>
+          <columns gridOrigin='A1:J52:no:A1:J52:0' header='yes' outcome='2'>
+            <column datatype='date' name='Official reported estimates of percentage testing positive, England' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='real' name='F3' ordinal='2' />
+            <column datatype='real' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='Modelled daily rates of the percentage of the population testing positive for COVID-19, England' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1f464rk0ofss5m1avboet0t33c4o' name='England' table='[England$]' type='table'>
+          <columns gridOrigin='A1:J52:no:A1:J52:0' header='yes' outcome='2'>
+            <column datatype='date' name='Official reported estimates of percentage testing positive, England' ordinal='0' />
+            <column datatype='real' name='F2' ordinal='1' />
+            <column datatype='real' name='F3' ordinal='2' />
+            <column datatype='real' name='F4' ordinal='3' />
+            <column datatype='string' name='F5' ordinal='4' />
+            <column datatype='string' name='F6' ordinal='5' />
+            <column datatype='string' name='Modelled daily rates of the percentage of the population testing positive for COVID-19, England' ordinal='6' />
+            <column datatype='string' name='F8' ordinal='7' />
+            <column datatype='string' name='F9' ordinal='8' />
+            <column datatype='string' name='F10' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[England]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J52:no:A1:J52:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Official reported estimates of percentage testing positive, England</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Official reported estimates of percentage testing positive, England]</local-name>
+            <parent-name>[England]</parent-name>
+            <remote-alias>Official reported estimates of percentage testing positive, England</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[England_EB206209DFF14FA49C8AA40477AF69E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[England]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[England_EB206209DFF14FA49C8AA40477AF69E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[England]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[England_EB206209DFF14FA49C8AA40477AF69E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F4</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F4]</local-name>
+            <parent-name>[England]</parent-name>
+            <remote-alias>F4</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[England_EB206209DFF14FA49C8AA40477AF69E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[England]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[England_EB206209DFF14FA49C8AA40477AF69E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[England]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[England_EB206209DFF14FA49C8AA40477AF69E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Modelled daily rates of the percentage of the population testing positive for COVID-19, England</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Modelled daily rates of the percentage of the population testing positive for COVID-19, England]</local-name>
+            <parent-name>[England]</parent-name>
+            <remote-alias>Modelled daily rates of the percentage of the population testing positive for COVID-19, England</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[England_EB206209DFF14FA49C8AA40477AF69E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[England]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[England_EB206209DFF14FA49C8AA40477AF69E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[England]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[England_EB206209DFF14FA49C8AA40477AF69E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[England]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[England_EB206209DFF14FA49C8AA40477AF69E8]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' hidden='true' name='[F10]' role='dimension' type='nominal' />
+      <column caption='Estimated average % of the population that had COVID-19' datatype='real' name='[F2]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F3]' role='measure' type='quantitative' />
+      <column datatype='real' hidden='true' name='[F4]' role='measure' type='quantitative' />
+      <column datatype='string' hidden='true' name='[F5]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F6]' role='dimension' type='nominal' />
+      <column caption='Modelled % testing positive for COVID-19' datatype='string' name='[F8]' role='dimension' type='nominal' />
+      <column datatype='string' hidden='true' name='[F9]' role='dimension' type='nominal' />
+      <column caption='Date' datatype='string' name='[Modelled daily rates of the percentage of the population testing positive for COVID-19, England]' role='dimension' type='nominal' />
+      <column caption='Dates' datatype='date' name='[Official reported estimates of percentage testing positive, England]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='England' datatype='table' name='[__tableau_internal_object_id__].[England_EB206209DFF14FA49C8AA40477AF69E8]' role='measure' type='quantitative' />
+      <column-instance column='[Modelled daily rates of the percentage of the population testing positive for COVID-19, England]' derivation='Attribute' name='[attr:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Official reported estimates of percentage testing positive, England]' derivation='Day' name='[dy:Official reported estimates of percentage testing positive, England:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Modelled daily rates of the percentage of the population testing positive for COVID-19, England]' derivation='Max' name='[max:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Modelled daily rates of the percentage of the population testing positive for COVID-19, England]' derivation='Min' name='[min:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Modelled daily rates of the percentage of the population testing positive for COVID-19, England]' derivation='None' name='[none:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[dy:Official reported estimates of percentage testing positive, England:ok]' type='palette'>
+            <map to='#499894'>
+              <bucket>10</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>27</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>14</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>11</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>21</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>24</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>28</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>18</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>15</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>16</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>20</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>23</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>25</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>2021</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>9</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>30</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>2020</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>17</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>13</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>31</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Monday, April 12, 2021&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Thursday, March 11, 2021&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Date&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sunday, April 11, 2021&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Wednesday, March 17, 2021&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Friday, March 12, 2021&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sunday, March 28, 2021&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Monday, March 29, 2021&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tuesday, April 13, 2021&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Monday, March 08, 2021&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Thursday, March 18, 2021&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Friday, March 19, 2021&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Thursday, April 01, 2021&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Saturday, March 27, 2021&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Wednesday, April 14, 2021&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Friday, April 02, 2021&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sunday, March 07, 2021&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Wednesday, March 24, 2021&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Saturday, March 13, 2021&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tuesday, March 30, 2021&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Friday, March 26, 2021&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Thursday, April 08, 2021&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Saturday, April 03, 2021&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tuesday, March 09, 2021&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Saturday, April 10, 2021&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tuesday, March 16, 2021&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Saturday, March 20, 2021&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Wednesday, April 07, 2021&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sunday, April 04, 2021&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Wednesday, March 10, 2021&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Monday, March 15, 2021&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Thursday, March 25, 2021&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Monday, April 05, 2021&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Thursday, April 15, 2021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Friday, April 09, 2021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sunday, March 14, 2021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Wednesday, March 31, 2021&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Saturday, March 06, 2021&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tuesday, March 23, 2021&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Monday, March 22, 2021&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tuesday, April 06, 2021&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Friday, April 16, 2021&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sunday, March 21, 2021&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[attr:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Monday, April 12, 2021&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Thursday, March 11, 2021&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Date&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sunday, April 11, 2021&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Wednesday, March 17, 2021&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Friday, March 12, 2021&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sunday, March 28, 2021&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Monday, March 29, 2021&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tuesday, April 13, 2021&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Monday, March 08, 2021&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Thursday, March 18, 2021&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Friday, March 19, 2021&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Thursday, April 01, 2021&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Saturday, March 27, 2021&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Wednesday, April 14, 2021&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Friday, April 02, 2021&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sunday, March 07, 2021&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Wednesday, March 24, 2021&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Saturday, March 13, 2021&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tuesday, March 30, 2021&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Friday, March 26, 2021&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Thursday, April 08, 2021&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Saturday, April 03, 2021&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tuesday, March 09, 2021&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Saturday, April 10, 2021&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tuesday, March 16, 2021&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Saturday, March 20, 2021&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Wednesday, April 07, 2021&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sunday, April 04, 2021&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Wednesday, March 10, 2021&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Monday, March 15, 2021&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Thursday, March 25, 2021&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Monday, April 05, 2021&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Thursday, April 15, 2021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Friday, April 09, 2021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sunday, March 14, 2021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Wednesday, March 31, 2021&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Saturday, March 06, 2021&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tuesday, March 23, 2021&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Monday, March 22, 2021&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tuesday, April 06, 2021&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Friday, April 16, 2021&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sunday, March 21, 2021&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[min:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Monday, April 12, 2021&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Thursday, March 11, 2021&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Date&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sunday, April 11, 2021&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Wednesday, March 17, 2021&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Friday, March 12, 2021&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sunday, March 28, 2021&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Monday, March 29, 2021&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tuesday, April 13, 2021&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Monday, March 08, 2021&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Thursday, March 18, 2021&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Friday, March 19, 2021&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Thursday, April 01, 2021&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Saturday, March 27, 2021&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Wednesday, April 14, 2021&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Friday, April 02, 2021&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sunday, March 07, 2021&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Wednesday, March 24, 2021&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Saturday, March 13, 2021&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tuesday, March 30, 2021&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Friday, March 26, 2021&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Thursday, April 08, 2021&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Saturday, April 03, 2021&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tuesday, March 09, 2021&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Saturday, April 10, 2021&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tuesday, March 16, 2021&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Saturday, March 20, 2021&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Wednesday, April 07, 2021&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sunday, April 04, 2021&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Wednesday, March 10, 2021&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Monday, March 15, 2021&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Thursday, March 25, 2021&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Monday, April 05, 2021&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Thursday, April 15, 2021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Friday, April 09, 2021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sunday, March 14, 2021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Wednesday, March 31, 2021&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Saturday, March 06, 2021&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tuesday, March 23, 2021&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Monday, March 22, 2021&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tuesday, April 06, 2021&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Friday, April 16, 2021&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sunday, March 21, 2021&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[max:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Monday, April 12, 2021&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Thursday, March 11, 2021&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Date&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Sunday, April 11, 2021&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Wednesday, March 17, 2021&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Friday, March 12, 2021&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Sunday, March 28, 2021&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Monday, March 29, 2021&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Tuesday, April 13, 2021&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Monday, March 08, 2021&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Thursday, March 18, 2021&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Friday, March 19, 2021&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Thursday, April 01, 2021&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Saturday, March 27, 2021&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Wednesday, April 14, 2021&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Friday, April 02, 2021&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Sunday, March 07, 2021&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Wednesday, March 24, 2021&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Saturday, March 13, 2021&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Tuesday, March 30, 2021&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Friday, March 26, 2021&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Thursday, April 08, 2021&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Saturday, April 03, 2021&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Tuesday, March 09, 2021&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Saturday, April 10, 2021&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Tuesday, March 16, 2021&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Saturday, March 20, 2021&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Wednesday, April 07, 2021&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Sunday, April 04, 2021&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Wednesday, March 10, 2021&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Monday, March 15, 2021&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Thursday, March 25, 2021&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Monday, April 05, 2021&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Thursday, April 15, 2021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Friday, April 09, 2021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Sunday, March 14, 2021&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Wednesday, March 31, 2021&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Saturday, March 06, 2021&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Tuesday, March 23, 2021&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Monday, March 22, 2021&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Tuesday, April 06, 2021&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Friday, April 16, 2021&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Sunday, March 21, 2021&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='England' id='England_EB206209DFF14FA49C8AA40477AF69E8'>
+            <properties context=''>
+              <relation connection='excel-direct.1f464rk0ofss5m1avboet0t33c4o' name='England' table='[England$]' type='table'>
+                <columns gridOrigin='A1:J52:no:A1:J52:0' header='yes' outcome='2'>
+                  <column datatype='date' name='Official reported estimates of percentage testing positive, England' ordinal='0' />
+                  <column datatype='real' name='F2' ordinal='1' />
+                  <column datatype='real' name='F3' ordinal='2' />
+                  <column datatype='real' name='F4' ordinal='3' />
+                  <column datatype='string' name='F5' ordinal='4' />
+                  <column datatype='string' name='F6' ordinal='5' />
+                  <column datatype='string' name='Modelled daily rates of the percentage of the population testing positive for COVID-19, England' ordinal='6' />
+                  <column datatype='string' name='F8' ordinal='7' />
+                  <column datatype='string' name='F9' ordinal='8' />
+                  <column datatype='string' name='F10' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='England'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='England (1)' name='federated.16k6rvt0am9uf41aubwkh0keyp9y' />
+          </datasources>
+          <datasource-dependencies datasource='federated.16k6rvt0am9uf41aubwkh0keyp9y'>
+            <column caption='Estimated average % of the population that had COVID-19' datatype='real' name='[F2]' role='measure' type='quantitative' />
+            <column caption='Modelled % testing positive for COVID-19' datatype='string' name='[F8]' role='dimension' type='nominal' />
+            <column caption='Date' datatype='string' name='[Modelled daily rates of the percentage of the population testing positive for COVID-19, England]' role='dimension' type='nominal' />
+            <column-instance column='[F8]' derivation='None' name='[none:F8:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Modelled daily rates of the percentage of the population testing positive for COVID-19, England]' derivation='None' name='[none:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' pivot='key' type='nominal' />
+            <column-instance column='[F2]' derivation='Sum' name='[sum:F2:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.16k6rvt0am9uf41aubwkh0keyp9y].[none:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' />
+              <groupfilter function='member' level='[none:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.16k6rvt0am9uf41aubwkh0keyp9y].[none:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Wednesday, March 31, 2021&quot;</bucket>
+              <bucket>&quot;Wednesday, March 24, 2021&quot;</bucket>
+              <bucket>&quot;Wednesday, March 17, 2021&quot;</bucket>
+              <bucket>&quot;Wednesday, March 10, 2021&quot;</bucket>
+              <bucket>&quot;Wednesday, April 14, 2021&quot;</bucket>
+              <bucket>&quot;Wednesday, April 07, 2021&quot;</bucket>
+              <bucket>&quot;Tuesday, March 30, 2021&quot;</bucket>
+              <bucket>&quot;Tuesday, March 23, 2021&quot;</bucket>
+              <bucket>&quot;Tuesday, March 16, 2021&quot;</bucket>
+              <bucket>&quot;Tuesday, March 09, 2021&quot;</bucket>
+              <bucket>&quot;Tuesday, April 13, 2021&quot;</bucket>
+              <bucket>&quot;Tuesday, April 06, 2021&quot;</bucket>
+              <bucket>&quot;Thursday, March 25, 2021&quot;</bucket>
+              <bucket>&quot;Thursday, March 18, 2021&quot;</bucket>
+              <bucket>&quot;Thursday, March 11, 2021&quot;</bucket>
+              <bucket>&quot;Thursday, April 15, 2021&quot;</bucket>
+              <bucket>&quot;Thursday, April 08, 2021&quot;</bucket>
+              <bucket>&quot;Thursday, April 01, 2021&quot;</bucket>
+              <bucket>&quot;Sunday, March 28, 2021&quot;</bucket>
+              <bucket>&quot;Sunday, March 21, 2021&quot;</bucket>
+              <bucket>&quot;Sunday, March 14, 2021&quot;</bucket>
+              <bucket>&quot;Sunday, March 07, 2021&quot;</bucket>
+              <bucket>&quot;Sunday, April 11, 2021&quot;</bucket>
+              <bucket>&quot;Sunday, April 04, 2021&quot;</bucket>
+              <bucket>&quot;Saturday, March 27, 2021&quot;</bucket>
+              <bucket>&quot;Saturday, March 20, 2021&quot;</bucket>
+              <bucket>&quot;Saturday, March 13, 2021&quot;</bucket>
+              <bucket>&quot;Saturday, March 06, 2021&quot;</bucket>
+              <bucket>&quot;Saturday, April 10, 2021&quot;</bucket>
+              <bucket>&quot;Saturday, April 03, 2021&quot;</bucket>
+              <bucket>&quot;Monday, March 29, 2021&quot;</bucket>
+              <bucket>&quot;Monday, March 22, 2021&quot;</bucket>
+              <bucket>&quot;Monday, March 15, 2021&quot;</bucket>
+              <bucket>&quot;Monday, March 08, 2021&quot;</bucket>
+              <bucket>&quot;Monday, April 12, 2021&quot;</bucket>
+              <bucket>&quot;Monday, April 05, 2021&quot;</bucket>
+              <bucket>&quot;Friday, March 26, 2021&quot;</bucket>
+              <bucket>&quot;Friday, March 19, 2021&quot;</bucket>
+              <bucket>&quot;Friday, March 12, 2021&quot;</bucket>
+              <bucket>&quot;Friday, April 16, 2021&quot;</bucket>
+              <bucket>&quot;Friday, April 09, 2021&quot;</bucket>
+              <bucket>&quot;Friday, April 02, 2021&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='quantitative' column='[federated.16k6rvt0am9uf41aubwkh0keyp9y].[sum:F2:qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.16k6rvt0am9uf41aubwkh0keyp9y].[sum:F2:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.16k6rvt0am9uf41aubwkh0keyp9y].[none:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' value='33' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.16k6rvt0am9uf41aubwkh0keyp9y].[none:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='725' />
+                <format attr='maxheight' value='725' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.16k6rvt0am9uf41aubwkh0keyp9y].[sum:F2:qk]</rows>
+        <cols>([federated.16k6rvt0am9uf41aubwkh0keyp9y].[none:F8:nk] / [federated.16k6rvt0am9uf41aubwkh0keyp9y].[none:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk])</cols>
+      </table>
+      <simple-id uuid='{9012ADAA-1303-48F0-A7B9-23F18E0827A4}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='England'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.16k6rvt0am9uf41aubwkh0keyp9y].[none:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.16k6rvt0am9uf41aubwkh0keyp9y].[none:F8:nk]</field>
+            <field>[federated.16k6rvt0am9uf41aubwkh0keyp9y].[none:Modelled daily rates of the percentage of the population testing positive for COVID-19, England:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{6D1A18A8-5908-433D-8BD4-0AA0CE0DB700}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='England' width='192'>
+      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
+      RU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
